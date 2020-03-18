@@ -65,7 +65,7 @@ exports.run = async ( client,oldMember, newMember)=> {
           .setTitle('**Server Booster**')
           .setColor("#0099ff")
           .setDescription(newMember.displayName + ' Thanks for Boosting the Server!!')
-          .setAuthor('WEdding Royale','https://cdn.discordapp.com/avatars/689340923301199925/ac6f98b33426868ee8f7b13cbec5c4b6.png?size=128')
+          .setAuthor('WEdding Royale',client.user.displayAvatarURL)
           .setTimestamp()
           .setFooter(`Developed by SVGムParZivaL`);
 
